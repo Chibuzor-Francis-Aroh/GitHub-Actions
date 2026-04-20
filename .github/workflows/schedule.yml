@@ -1,6 +1,7 @@
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # This adds a manual "Run workflow" button
 
 jobs:
   hello_world:
